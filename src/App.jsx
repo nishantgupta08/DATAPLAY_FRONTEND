@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Programs from "./components/Programs";
-import Features from "./components/Features";
-import Mentors from "./components/Mentors";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import Programs from "./components/Programs.jsx";
+import Features from "./components/Features.jsx";
+import Mentors from "./components/Mentors.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 export default function App() {

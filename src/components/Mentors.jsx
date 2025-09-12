@@ -1,6 +1,6 @@
 import React from "react";
 import { mentors } from "../data";
-import MentorCard from "./MentorCard";
+import MentorCard from "./MentorCard.jsx";
 
 
 export default function Mentors() {

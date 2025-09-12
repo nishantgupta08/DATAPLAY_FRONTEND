@@ -1,6 +1,6 @@
 import React from "react";
 import { programs } from "../data";
-import ProgramCard from "./ProgramCard";
+import ProgramCard from "./ProgramCard.jsx";
 
 
 export default function Programs() {

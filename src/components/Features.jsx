@@ -1,6 +1,6 @@
 import React from "react";
 import { features } from "../data";
-import FeatureCard from "./FeatureCard";
+import FeatureCard from "./FeatureCard.jsx";
 
 
 export default function Features() {
