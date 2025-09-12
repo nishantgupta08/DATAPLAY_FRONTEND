@@ -42,17 +42,17 @@ export const features = [
   },
   {
     title: "Daily Practice Problems",
-    desc: "To reinforce previous concepts",
+    desc: "To reinforce Previous Concepts!",
     icon: "layers",
   },
   {
     title: "Tailored Course",
-    desc: "Aligned to your strengths and goals",
+    desc: "Your Unique Talents And Interested!",
     icon: "graduation",
   },
   {
-    title: "Ace Interviews",
-    desc: "Unlimited mock interviews",
+    title: "Ace Your Interviews",
+    desc: "With Unlimited Mock Interviews!",
     icon: "messages",
   },
 ];
@@ -60,8 +60,8 @@ export const features = [
 export const mentors = [
   {
     name: "Nishant Gupta",
-    role: "Senior Data Scientist @ EXL",
-    bio: "Ex Senior Data Scientist @ MediaCorp, Singapore. 8+ years teaching complex concepts with clarity.",
+    role: "Senior Data Scientist @ EXL, Ex Senior Data Scientist @ MediaCorp, Singapore",
+    bio: "8+ years teaching complex concepts with clarity.",
     image: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=1400&auto=format&fit=crop",
   },
   {

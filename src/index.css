@@ -17,4 +17,4 @@
   .sub { @apply text-sm text-gray-500; }
 }
 
-body { @apply bg-gray-50 text-gray-900; }
+body { @apply bg-white text-gray-900; }

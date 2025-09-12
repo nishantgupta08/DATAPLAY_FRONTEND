@@ -2,22 +2,25 @@ import React from "react";
 import { mentors } from "../data";
 import MentorCard from "./MentorCard.jsx";
 
-
 export default function Mentors() {
 return (
-<section className="container-px py-12">
-<div className="text-center mb-6">
-<span className="badge border-0 bg-indigo-100 text-indigo-700">MENTORS</span>
-<h2 className="heading mt-2">Our Mentors</h2>
-<p className="sub mt-1">Guiding minds towards brilliance and success.</p>
+<section className="container-px py-16">
+<div className="text-center mb-12">
+<div className="inline-flex items-center rounded-full bg-purple-100 text-purple-700 px-4 py-2 text-sm font-semibold mb-4">
+MENTORS
 </div>
-<div className="grid gap-6 md:grid-cols-2">
+<h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-2">Our Mentors</h2>
+<p className="text-gray-600">Guiding minds towards brilliance and success.</p>
+</div>
+<div className="grid gap-8 md:grid-cols-2">
 {mentors.map((m) => (
 <MentorCard key={m.name} m={m} />
 ))}
 </div>
-<div className="text-center mt-8">
-<a className="btn-primary" href="#more-mentors">View More</a>
+<div className="text-center mt-12">
+<button className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition">
+View More →
+</button>
 </div>
 </section>
 );
