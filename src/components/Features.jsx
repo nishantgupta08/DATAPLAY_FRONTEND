@@ -1,2 +1,16 @@
-import React from 'react';
-export default function Features(){return <section className='p-10 bg-gray-50'>Features</section>}
+import React from "react";
+import { features } from "../data";
+import FeatureCard from "./FeatureCard";
+
+
+export default function Features() {
+return (
+<section className="container-px pb-10">
+<div className="grid gap-4 md:grid-cols-4">
+{features.map((f) => (
+<FeatureCard key={f.title} feature={f} />
+))}
+</div>
+</section>
+);
+}
