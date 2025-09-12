@@ -1,5 +1,5 @@
 import React from "react";
-import { UserRound, Timer } from "lucide-react";
+import { Users, Timer } from "lucide-react";
 
 
 export default function ProgramCard({ p }) {
@@ -12,7 +12,7 @@ return (
 <img src={p.image} alt="course" className="h-36 w-full object-cover" />
 <div className="p-4 space-y-3">
 <div className="flex items-center gap-4 text-sm text-gray-600">
-<span className="inline-flex items-center gap-1"><UserRound className="h-4 w-4"/> {p.seats}</span>
+<span className="inline-flex items-center gap-1"><Users className="h-4 w-4"/> {p.seats}</span>
 <span className="inline-flex items-center gap-1"><Timer className="h-4 w-4"/> {p.duration}</span>
 </div>
 <div className="flex items-center justify-between">
