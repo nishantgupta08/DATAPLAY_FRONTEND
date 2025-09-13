@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Navbar() {
 return (
-<header className="sticky top-0 z-40 bg-blue-900">
+<header className="sticky top-0 z-40 bg-slate-900">
 <div className="container-px flex h-16 items-center justify-between">
 <div className="flex items-center gap-8">
 <a href="#" className="flex items-center gap-3 font-bold text-xl">
-<div className="h-8 w-8 bg-white rounded-lg flex items-center justify-center">
-<span className="text-blue-900 font-bold text-lg">DP</span>
+<div className="h-8 w-8 bg-blue-600 rounded flex items-center justify-center">
+<span className="text-white font-bold text-lg">D</span>
 </div>
 <span className="text-red-500">DATA</span><span className="text-white">PLAY</span>
 </a>

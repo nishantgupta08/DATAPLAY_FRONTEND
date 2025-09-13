@@ -3,23 +3,25 @@ import { GraduationCap, Star, Linkedin } from "lucide-react";
 
 export default function Hero() {
 return (
-<section className="bg-gradient-to-r from-purple-50 to-purple-100">
+<section className="bg-gradient-to-r from-purple-50 to-purple-100 relative overflow-hidden">
 <div className="container-px grid gap-10 py-10 md:grid-cols-2 md:py-14">
 <div className="space-y-6">
-<div className="inline-flex items-center gap-2 text-sm font-semibold text-purple-800">
-Never Stop <span className="relative bg-purple-200 rounded-full px-3 py-1 border border-purple-300">
+<div className="inline-flex items-center gap-2 text-sm font-semibold text-gray-800">
+Never Stop <span className="relative bg-purple-200 rounded-lg px-3 py-1 border border-white">
 Learning
 <div className="absolute -top-1 -right-1 w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
 <div className="absolute -bottom-1 -left-1 w-1 h-1 bg-purple-400 rounded-full animate-pulse"></div>
+<div className="absolute -top-2 -right-2 w-1 h-1 bg-purple-400 rounded-full animate-pulse"></div>
+<div className="absolute -bottom-2 -left-2 w-1 h-1 bg-purple-400 rounded-full animate-pulse"></div>
 </span>
 </div>
-<h1 className="text-4xl md:text-5xl font-extrabold text-purple-900 leading-tight">
+<h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
 Empowering Data Science Careers at <span className="block relative">
 All Levels
-<div className="absolute bottom-0 left-0 w-full h-3 bg-red-500 opacity-30 transform -skew-x-12"></div>
+<div className="absolute bottom-0 left-0 w-full h-4 bg-red-500 opacity-40 transform -skew-x-12 rounded"></div>
 </span>
 </h1>
-<p className="text-lg text-purple-700 max-w-xl">
+<p className="text-lg text-gray-700 max-w-xl">
 Let's Sculpt <span className="font-bold">YOUR</span> Path To Success, <span className="font-bold">YOUR</span> Way !
 </p>
 <div className="flex gap-4">
@@ -31,30 +33,31 @@ Join Upcoming Cohort
 </button>
 </div>
 <div className="flex gap-8 pt-6">
-<div className="flex items-center gap-2">
+<div className="flex items-center gap-3">
+<div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
 <GraduationCap className="h-6 w-6 text-blue-600" />
+</div>
 <div>
-<div className="text-xl font-bold text-purple-900">3K+</div>
-<div className="text-sm text-purple-600">Upskilled</div>
+<div className="text-xl font-bold text-gray-900">3K+</div>
+<div className="text-sm text-gray-600">Upskilled</div>
 </div>
 </div>
-<div className="flex items-center gap-2">
-<div className="relative">
+<div className="flex items-center gap-3">
+<div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
 <Star className="h-6 w-6 text-red-500" />
-<div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full flex items-center justify-center">
-<span className="text-white text-xs font-bold">★</span>
-</div>
 </div>
 <div>
-<div className="text-xl font-bold text-purple-900">4.9</div>
-<div className="text-sm text-purple-600">Google Rating</div>
+<div className="text-xl font-bold text-gray-900">4.9</div>
+<div className="text-sm text-gray-600">Google Rating</div>
 </div>
 </div>
-<div className="flex items-center gap-2">
+<div className="flex items-center gap-3">
+<div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
 <Linkedin className="h-6 w-6 text-blue-600" />
+</div>
 <div>
-<div className="text-xl font-bold text-purple-900">9K+</div>
-<div className="text-sm text-purple-600">Community</div>
+<div className="text-xl font-bold text-gray-900">9K+</div>
+<div className="text-sm text-gray-600">Community</div>
 </div>
 </div>
 </div>
@@ -84,6 +87,10 @@ className="h-[400px] w-full rounded-3xl object-cover shadow-xl"
 <div className="absolute top-20 right-20 w-8 h-8 bg-purple-400 rounded-full opacity-30"></div>
 <div className="absolute bottom-20 left-20 w-6 h-6 bg-purple-400 rounded-full opacity-30"></div>
 <div className="absolute top-32 right-32 w-4 h-4 bg-purple-400 rounded-full opacity-30"></div>
+<div className="absolute top-16 left-16 text-gray-400 text-2xl">+</div>
+<div className="absolute top-24 right-16 text-gray-400 text-xl">+</div>
+<div className="absolute bottom-16 left-16 text-gray-400 text-lg">+</div>
+<div className="absolute top-40 right-40 text-gray-400 text-sm">+</div>
 </div>
 </div>
 </section>

@@ -4,7 +4,7 @@ import { Users, Timer } from "lucide-react";
 export default function ProgramCard({ p }) {
 const full = p.status.toLowerCase() === "full";
 return (
-<div className="bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition overflow-hidden">
+<div className="bg-white rounded-2xl border border-purple-200 shadow-sm hover:shadow-md transition overflow-hidden">
 <img src={p.image} alt="course" className="h-48 w-full object-cover" />
 <div className="p-6 space-y-4">
 <div className="font-semibold text-lg text-gray-900">{p.title}</div>
